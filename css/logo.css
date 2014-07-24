@@ -2,7 +2,7 @@
     
 html, body{
 
-
+text-align: center;
  
     height: 100%;
     width: 100%;  
@@ -10,12 +10,11 @@ html, body{
     
 }
 
-.Log{
- 
-    height: 50%;
-    width: 100%;
-    background: URL(../img/PregMun.png)center bottom no-repeat  
-        
+#Log{
+
+    height: 70%;
+    width: 60%;
+  
 }
 
 
