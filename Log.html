@@ -1,67 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8">
-<title>Saber es ganar!!</title>    
-<script>
-    
-function validarTextos(){
-    var nombre= document.getElementById("nom").value;
-     var elem=document.getElementById("nom");   
-        
-        if(nombre == ""){
-        elem.style.backgroundColor="#76ff00";
-        elem.focus();    
-    
-        }else{
-    elem.style.backgroundColor="";    
-      }
+<title>PregMundo</title>    
 
-var apellido=document.getElementById("ape").value;
-var elemt=document.getElementById("ape");
-    if(apellido == ""){
-    elemt.style.backgroundColor="#76ff00";
-    
-    }else{
-    elemt.style.backgroundColor="";
-    }
-    
-var Edad= document.getElementById("ed").value;
-     var elem=document.getElementById("ed");  
-    
-    if((Edad == "")||(isNaN(Edad))){
-        elem.style.backgroundColor="#76ff00";
-           
-    
-        }else{
-    elem.style.backgroundColor="";    
-        
-        }        
-var elem1=document.getElementById("sex1");
-    var elem2=document.getElementById("sex2");
-    var mensaje=document.getElementById("msj");
-    elem1.checked 
-    
-    if(!(elem1.checked)&& !(elem2.checked)){
-    mensaje.innerHTML="Debes elegir tu sexo";
-        mensaje.style.display="block";
-        mensaje.style.color="red";
-    
-    }else{
-    mensaje.style.display="none";
-    }
-    
-   
-    
-}
-    
-    </script>    
+     <script type="text/javascript" src="js/siguiente.js">  </script>
+ <link rel="stylesheet" type="text/css" href="css/logo.css">
+      
     </head>
 <body>
-<h2>Registrate para empezar el juego</h2>
+<h2 id="titulo">Registrate para empezar el juego</h2>
     <br>
     
     
- <form  >   
+ <form id="titulo2"  >   
 Nombre:<br><input id="nom" name="nombre" type="text" size="20" maxlength="20"/> <br>
 
 Apelllido:   <br>   <input id="ape" name="apellido" type="text" size="20" maxlength="20"/><br>    
@@ -72,8 +23,10 @@ Sexo:<div id="msj" style="display:none"></div>
            <input id="sex1"  type="radio" name="rd" value="m"/>Masculino
            <input id="sex2"  type="radio" name="rd" value="f"/>Femenino<br>
      
-    
-    <button type="button" onclick="validarTextos();">Registrar</button>
+   
+    <button type="button" onclick="validarTextos();" class="btn2">Registrar</button><br>
+     <a href="Juego.html">
+<button type="button" id="btn" class="btn2" style="display:none">Siguiente</button>     
    </form> 
     </body>    
     

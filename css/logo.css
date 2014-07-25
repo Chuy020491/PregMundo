@@ -17,11 +17,64 @@ text-align: center;
   
 }
 
-
-
 #titulo{
     background-color: #6D24A1;
 font-size: 30px;
     color: #ffffff;
 text-align:center;
 }
+
+/* Aplicando CSS al logeo */
+
+#titulo2{
+    background-color: #6D24A1;
+font-size: 20px;
+    color: #ffffff;
+
+}
+
+.btn2{
+    
+background-color: #c99;
+    color: #fff;
+    border: solid white 4px;
+    box-shadow: px 2px 5px #f89;
+    border-radius: 25%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+.btn2:hover{
+border-radius: 100%;
+
+}
+ 
+/* Aplicando css a botoenes del juego */
+
+#btnInfo{
+ width: 36%;
+    height: 13%;
+    background-color: rgb(88, 104, 178);
+    font-size: 20px;
+    color: #ffffff;
+    border: solid white 4px;
+    box-shadow: 1px 1px 12px  #d1b69b;
+    margin-bottom: 25px;
+    border-color: #1f2fa8;
+     -webkit-transition:all .9s ease;
+    -moz-transition:all .9s ease;
+    -ms-transition:all .9s ease;
+    transition:all .9s ease;
+    
+ }
+#btnInfo:hover{
+background: #830707;
+    width: 266px;
+    border-radius: 100%;
+   
+}
+
+
