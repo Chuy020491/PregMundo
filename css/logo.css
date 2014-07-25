@@ -1,3 +1,5 @@
+/* Dando estilo al index */
+
 @charset "utf-8";
     
 html, body{
@@ -23,6 +25,9 @@ font-size: 30px;
     color: #ffffff;
 text-align:center;
 }
+
+
+
 
 /* Aplicando CSS al logeo */
 
@@ -52,6 +57,7 @@ border-radius: 100%;
 
 }
  
+
 /* Aplicando css a botoenes del juego */
 
 #btnInfo{
