@@ -11,6 +11,14 @@ text-align: center;
      background-color: #6D24A1;
     
 }
+#tabla{
+ height: 100%;
+     width: 100%; 
+   
+    padding-bottom:0px;
+    float: right;
+
+}
 
 #Log{
 
@@ -60,7 +68,7 @@ border-radius: 100%;
 
 /* Aplicando css a botoenes del juego */
 
-#btnInfo{
+.btnInfo{
  width: 36%;
     height: 13%;
     background-color: rgb(88, 104, 178);
@@ -76,11 +84,28 @@ border-radius: 100%;
     transition:all .9s ease;
     
  }
-#btnInfo:hover{
+.btnInfo:hover{
 background: #830707;
     width: 266px;
     border-radius: 100%;
    
+}
+
+/*Aplicacndo Css a las preguntas */
+#resultado{
+font-size: 30px;
+    color: #fff;
+    
+}
+#boton{
+
+   background-color:  #e31212;
+    font-size: 20px;
+    color: #e3bb12;
+
+}
+#boton:hover{
+border-radius: 50px;
 }
 
 

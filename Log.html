@@ -5,28 +5,45 @@
 
      <script type="text/javascript" src="js/siguiente.js">  </script>
  <link rel="stylesheet" type="text/css" href="css/logo.css">
-      
+
     </head>
 <body>
-<h2 id="titulo">Registrate para empezar el juego</h2>
-    <br>
-    
-    
- <form id="titulo2"  >   
-Nombre:<br><input id="nom" name="nombre" type="text" size="20" maxlength="20"/> <br>
 
-Apelllido:   <br>   <input id="ape" name="apellido" type="text" size="20" maxlength="20"/><br>    
+    
+    
+    
+ <form id="titulo2"  >  
+ 
+      <table style="border-radius:5px; border: 0px solid blue;" id="tabla" >
+          
+          <tr><td >
+              <h2 id="titulo">Registrate para empezar el juego</h2>
+Nombre:<br><input id="nom" name="nombre" type="text" size="20" maxlength="20"/>
+              </td>            
+        </tr><br>
+  <tr><td >
+Apelllido:   <br>   <input id="ape" name="apellido" type="text" size="20" maxlength="20"/>     </td>            
+        </tr><br>     
    
-Edad:  <br> <input id="ed" name="edad" type="text" size="20" maxlength="20"/> <br>
+       <tr><td >
+Edad:  <br> <input id="ed" name="edad" type="text" size="20" maxlength="20"/>     </td>            
+        </tr> <br>
 
+            <tr><td >
 Sexo:<div id="msj" style="display:none"></div>
            <input id="sex1"  type="radio" name="rd" value="m"/>Masculino
-           <input id="sex2"  type="radio" name="rd" value="f"/>Femenino<br>
+           <input id="sex2"  type="radio" name="rd" value="f"/>Femenino     </td>            
+        </tr><br>
      
-   
-    <button type="button" onclick="validarTextos();" class="btn2">Registrar</button><br>
+   <tr><td >
+    <button type="button" onclick="validarTextos();" class="btn2">Registrar</button></td>            
+        </tr><br>
+          
+       <tr><td >
      <a href="Juego.html">
-<button type="button" id="btn" class="btn2" style="display:none">Siguiente</button>     
+<button type="button" id="btn" class="btn2" style="display:none">Siguiente</button>  </td>            
+        </tr>
+          </table>
    </form> 
     </body>    
     
